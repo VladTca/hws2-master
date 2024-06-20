@@ -1,31 +1,86 @@
-.message {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
+
+.message {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-right: 70px;
+    gap: 5px;
+    margin-bottom: 47px;
 }
 
 .imageAndText {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
 
 }
 
 .imageAndText img {
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
 
 }
 
 .text {
 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+
+
 }
+
 
 .text:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
 
+    background-image: url("../../../Rectangle 3.svg");
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.name {
 
+.name {
+    color: #FFFFFF;
+    font-family: Montserrat, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    padding: 7px 25px 3px 0;
 }
 
 .messageText {
-
+    color: #FFFFFF;
+    font-family: Montserrat, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 25px 8px 13px
 }
 
 .time {
-
+    display: flex;
+    justify-content: flex-end;
+    color: #000;
+    font-family: Montserrat, serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 11px;
 }

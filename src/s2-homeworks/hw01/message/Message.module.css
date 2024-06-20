@@ -39,7 +39,7 @@
 
 
 .text:after {
-    content: "";
+    content:"";
     position: absolute;
 
     top: 0;
@@ -47,7 +47,7 @@
     bottom: 0;
     left: 0;
     z-index: -1;
-    background-image: url("../../../Rectangle 3.svg");
+    background-image: url("../../../Rectangle3.svg");
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;

@@ -3,7 +3,8 @@
 .App {
     --header_height: 60px;
 
-    width: 100%;
+    width:1280px;
+
     display: flex;
     flex-direction: column;
     font-family: Montserrat,serif;

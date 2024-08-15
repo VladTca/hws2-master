@@ -1,9 +1,41 @@
 .select {
+    width: 165px;
+    height: 24px;
+
+    border-radius: 2px;
+    border: 1px solid #C2C2C2;
+    background: #FFF;
+
+    color: #000;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .select:focus {
+    outline: none;
+    border-radius: 2px;
+    border: 2px solid #99ff99;
+    background: #FFF;
 }
 
-
+option {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #003300;
+    background: #99ff99;
+}
 .option:hover {
+    box-shadow: 0 0 10px 100px #FED20F inset;
+    transition: all 0.2s ease-in-out;
+    background: red;
+}
+.option:checked {
+    background: #003300;
+    color: #99ff99;
 }

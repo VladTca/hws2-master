@@ -8,16 +8,50 @@
 }
 
 .buttonsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    color: #06C;
+
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+
 }
 
 .container {
 }
 
 .thead {
+    width: 606px;
+    height: 36px;
+    flex-shrink: 0;
+    fill: #E5E5E5;
+    color: #000;
+    font-family: Roboto, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 10px 280px;
 }
 
 .nameCol {
+    display: flex;
+
+    fill: #E5E5E5;
+    color: #000;
+    font-family: Roboto, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 10px 280px;
 }
 
 .ageCol {
+
 }
